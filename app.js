@@ -1,7 +1,7 @@
 function somarNumeros() {
   let soma = 0;
-  for (let i = 1; i <= 5; i++) {
-    let valor = document.getElementById(`num${i}`).value;
+  for (let i = 0; i <= 4; i++) {
+    let valor = document.getElementById(`num${i + 1}`).value;
     let numero = parseFloat(valor);
 
     if (isNaN(numero)) {
